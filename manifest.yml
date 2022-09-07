@@ -1,0 +1,9 @@
+applications:
+  - name: APPNAME
+    routes:
+      - route: /api
+    path: target/demo-dome-v3.war
+    instances: 1
+    memory: 1G
+    services:
+      - fb
