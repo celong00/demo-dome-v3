@@ -2,7 +2,7 @@ applications:
   - name: APPNAME
     routes:
       - route: /api
-    path: target/demo-dome-v3.war
+    path: target/demo-dome-v3-0.0.1-SNAPSHOT.war
     instances: 1
     memory: 1G
     services:
